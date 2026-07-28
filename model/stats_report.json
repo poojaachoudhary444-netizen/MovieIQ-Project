@@ -1,0 +1,19 @@
+{
+  "ttest": {
+    "feature": "vote_average",
+    "null_hypothesis": "There is no difference in mean vote_average between successful and unsuccessful movies.",
+    "t_statistic": -1.0507133299728133,
+    "p_value": 0.2938173884306235,
+    "mean_success": 6.017048834275947,
+    "mean_failure": 6.1192010747936685,
+    "significant_at_0.05": false
+  },
+  "chi_square": {
+    "feature": "primary_genre",
+    "null_hypothesis": "Genre is independent of (not associated with) movie success.",
+    "chi2_statistic": 1.7730811979406715,
+    "p_value": 0.9945690204257113,
+    "degrees_of_freedom": 9,
+    "significant_at_0.05": false
+  }
+}

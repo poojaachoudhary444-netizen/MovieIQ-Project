@@ -1,0 +1,64 @@
+{
+  "features_used": [
+    "budget",
+    "popularity",
+    "runtime",
+    "vote_average",
+    "genre_encoded"
+  ],
+  "excluded_features": [
+    "title (identifier, no predictive value)",
+    "revenue (used to derive the target itself \u2014 including it would leak the answer)",
+    "genres (raw string; replaced by encoded primary_genre)"
+  ],
+  "train_size": 1600,
+  "test_size": 400,
+  "test_split_ratio": 0.2,
+  "accuracy": 0.735,
+  "precision": 0.7988980716253443,
+  "recall": 0.8978328173374613,
+  "classification_report": {
+    "0": {
+      "precision": 0.10810810810810811,
+      "recall": 0.05194805194805195,
+      "f1-score": 0.07017543859649122,
+      "support": 77.0
+    },
+    "1": {
+      "precision": 0.7988980716253443,
+      "recall": 0.8978328173374613,
+      "f1-score": 0.8454810495626822,
+      "support": 323.0
+    },
+    "accuracy": 0.735,
+    "macro avg": {
+      "precision": 0.4535030898667262,
+      "recall": 0.47489043464275665,
+      "f1-score": 0.4578282440795867,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.6659210036482763,
+      "recall": 0.735,
+      "f1-score": 0.6962347194516905,
+      "support": 400.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4,
+      73
+    ],
+    [
+      33,
+      290
+    ]
+  ],
+  "feature_importance": {
+    "popularity": 0.24740702506298365,
+    "budget": 0.23175762787674717,
+    "vote_average": 0.22782502341730732,
+    "runtime": 0.19439257311305727,
+    "genre_encoded": 0.0986177505299046
+  }
+}

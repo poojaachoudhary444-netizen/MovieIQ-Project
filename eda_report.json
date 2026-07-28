@@ -1,0 +1,109 @@
+{
+  "budget_revenue_correlation": 0.7598481036220431,
+  "genre_summary": {
+    "Romance": {
+      "count": 220,
+      "success_rate": 0.8090909090909091
+    },
+    "Adventure": {
+      "count": 207,
+      "success_rate": 0.8019323671497585
+    },
+    "Science Fiction": {
+      "count": 205,
+      "success_rate": 0.7853658536585366
+    },
+    "Animation": {
+      "count": 203,
+      "success_rate": 0.812807881773399
+    },
+    "Comedy": {
+      "count": 202,
+      "success_rate": 0.8118811881188119
+    },
+    "Horror": {
+      "count": 199,
+      "success_rate": 0.8190954773869347
+    },
+    "Drama": {
+      "count": 197,
+      "success_rate": 0.8223350253807107
+    },
+    "Thriller": {
+      "count": 194,
+      "success_rate": 0.8092783505154639
+    },
+    "Action": {
+      "count": 192,
+      "success_rate": 0.7864583333333334
+    },
+    "Unknown": {
+      "count": 181,
+      "success_rate": 0.8121546961325967
+    }
+  },
+  "feature_means_by_success": {
+    "popularity": {
+      "0": 47.404066448426036,
+      "1": 50.733275827436344
+    },
+    "runtime": {
+      "0": 131.61658031088083,
+      "1": 129.07806691449815
+    },
+    "vote_average": {
+      "0": 6.1192010747936685,
+      "1": 6.017048834275947
+    }
+  },
+  "correlation_matrix": {
+    "budget": {
+      "budget": 1.0,
+      "revenue": 0.7598481036220424,
+      "popularity": 0.0021488628561925674,
+      "runtime": -0.05465218294717775,
+      "vote_average": -0.004598360620421923,
+      "success": -0.031850800893242916
+    },
+    "revenue": {
+      "budget": 0.7598481036220424,
+      "revenue": 1.0,
+      "popularity": 0.014076155643884673,
+      "runtime": -0.06873009842401434,
+      "vote_average": -0.005221086083612736,
+      "success": 0.3742994137687712
+    },
+    "popularity": {
+      "budget": 0.0021488628561925674,
+      "revenue": 0.014076155643884673,
+      "popularity": 1.0,
+      "runtime": -0.005281047463447985,
+      "vote_average": -0.015163917379391524,
+      "success": 0.04614164375680155
+    },
+    "runtime": {
+      "budget": -0.05465218294717775,
+      "revenue": -0.06873009842401434,
+      "popularity": -0.005281047463447985,
+      "runtime": 1.0,
+      "vote_average": -0.014948463739703606,
+      "success": -0.0346663295202405
+    },
+    "vote_average": {
+      "budget": -0.004598360620421923,
+      "revenue": -0.005221086083612736,
+      "popularity": -0.015163917379391524,
+      "runtime": -0.014948463739703606,
+      "vote_average": 1.0,
+      "success": -0.023134035062103004
+    },
+    "success": {
+      "budget": -0.031850800893242916,
+      "revenue": 0.3742994137687712,
+      "popularity": 0.04614164375680155,
+      "runtime": -0.0346663295202405,
+      "vote_average": -0.023134035062103004,
+      "success": 1.0
+    }
+  }
+}
